@@ -2,9 +2,9 @@ const { Telegraf } = require('telegraf');
 const { Connection, Keypair, LAMPORTS_PER_SOL, VersionedTransaction } = require('@solana/web3.js');
 const axios = require('axios');
 
-// ⚠️ ⚠️ ⚠️ REPLACE THESE 2 LINES WITH YOUR KEYS ⚠️ ⚠️ ⚠️
-const BOT_TOKEN = '8560926260:AAH5n57UFoN4dUu3QTGy-Pi9uQDqJEuX6WU'; 
-const PRIVATE_KEY = '[5L13J5cwpPVU4MCMBMs4JSuMxk3RhhzBN27M1wv3z4didTFYMMaBzwGzq7JiPEuLgVmQAhTMaeY3yLduSkv4dxPC]';
+
+const BOT_TOKEN = '8560926260:AAH5n57UFoN4dUu3QTGy-Pi9uQDqJEuX6WU
+const PRIVATE_KEY = '5L13J5cwpPVU4MCMBMs4JSuMxk3RhhzBN27M1wv3z4didTFYMMaBzwGzq7JiPEuLgVmQAhTMaeY3yLduSkv4dxPC';
 
 const connection = new Connection('https://api.mainnet-beta.solana.com');
 
