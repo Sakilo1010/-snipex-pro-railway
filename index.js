@@ -3,8 +3,8 @@ const { Connection, Keypair, LAMPORTS_PER_SOL, VersionedTransaction } = require(
 const axios = require('axios');
 
 // ⚠️ ⚠️ ⚠️ REPLACE THESE 2 LINES WITH YOUR KEYS ⚠️ ⚠️ ⚠️
-const BOT_TOKEN = 'YOUR_BOT_TOKEN_HERE'; 
-const PRIVATE_KEY = '[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32]';
+const BOT_TOKEN = '8560926260:AAH5n57UFoN4dUu3QTGy-Pi9uQDqJEuX6WU'; 
+const PRIVATE_KEY = '[5L13J5cwpPVU4MCMBMs4JSuMxk3RhhzBN27M1wv3z4didTFYMMaBzwGzq7JiPEuLgVmQAhTMaeY3yLduSkv4dxPC]';
 
 const connection = new Connection('https://api.mainnet-beta.solana.com');
 
