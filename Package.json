@@ -1,16 +1,1 @@
 {
-  "name": "snipex-pro-railway",
-  "version": "3.0.0",
-  "main": "index.js",
-  "scripts": {
-    "start": "node index.js"
-  },
-  "dependencies": {
-    "telegraf": "^4.16.3",
-    "@solana/web3.js": "^1.95.6",
-    "axios": "^1.7.7"
-  },
-  "engines": {
-    "node": ">=18.0.0"
-  }
-}
